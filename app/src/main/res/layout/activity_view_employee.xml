@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewEmployee">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="View Profile"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:id="@+id/imageViewb"
+                android:layout_width="118dp"
+                android:layout_height="96dp"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                tools:srcCompat="@tools:sample/avatars" />
+
+
+            <TextView
+                android:id="@+id/fullnameidb"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="50dp"
+                android:layout_gravity="center"
+                android:hint="Full Names"
+                android:padding="5dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/emailidb"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                android:layout_gravity="center"
+                android:hint="Email"
+                android:padding="5dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/passwordidb"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:textSize="24dp"
+                android:layout_marginEnd="50dp"
+                android:hint="Password"
+                android:padding="5dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/departmentidb"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                android:hint="Departement"
+                android:padding="5dp"
+                android:textSize="24sp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/districtidb"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                android:hint="District"
+                android:padding="5dp"
+                android:textSize="24sp"
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+
+
+
+
+                <Button
+                    android:id="@+id/logoutBtnb"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:text="Logout" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
